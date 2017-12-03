@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;        
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+body{    
+    background-image:url("../imgs/bck.jpg"); 
+    font-family: 'Droid Sans', sans-serif;
+    line-height: 1;
+    font-size: 16px; }
+
+.fl{ float:left; }
+.fr{ float: right; }
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+.form-container {
+    width: 450px;
+    margin: 150px auto;
+    text-align: center;
+    overflow: hidden;    
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.form-header,.form-footer{
+    background: #00ff80;
+    color: #353535;
+    
+}
+.form-container .form-header {                
+    font-size: 1.4rem;
+    padding: 1.30rem;        
+}
+.form-container .form-content {
+    background:  #353535;
+}
+.form-content fieldset{    
+    padding: 1rem;
+    border: none;    
+}
+.form-content input[type="text"],.form-content input[type="password"],.inpt,.form-content input[type="submit"],.form-input-submit{
+    display: block;
+    width: 100%;
+    margin:0 auto;        
+    -webkit-border-radius: 0.125rem;
+    -moz-border-radius: 0.125rem;
+    border-radius: 0.125rem;
+}
+.form-content input[type="text"],.form-content input[type="password"],.inpt{
+    padding: 0.925rem;
+    border: 1px solid #DBD1CE;
+    background: #FFF3F0;    
+}
+.form-content input[type="submit"],.form-input-submit{
+    background: #00ff80;
+    padding: 0.925rem;
+    margin-top: 0.925rem;
+    color: #353535;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: none;    
+    border-top: 1px solid #FD9A83;
+    border-bottom: 1px solid #F17457;
+}
+.form-footer{    
+    line-height: 1.9;        
+}
+.footer-text{
+    color: #B8EAE6;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.56rem 0 0 1.25rem;
+}

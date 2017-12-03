@@ -1,0 +1,116 @@
+.ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#353535;
+}
+
+.links {
+    float: left;
+    border-right: 1px solid #00ff80;
+}
+
+.links a {
+    display: block;
+    color: #00ff80;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.symbol:hover{
+    transform: scale(1.1, 1.1);
+}
+.links a:hover{
+    background-color: #00ff80;
+    color: #353535;
+}
+h1:hover{
+  transform: scale(1.1, 1.1);
+	color: #4286f4;
+}
+.active {
+    background-color:#353535;
+    color: #00ff80;
+    font-size: 1.2rem;
+    padding: 1.1rem;
+    font-family: Courier New;
+    border-top: 2px #00ff40;
+    border-bottom: 2px #00ff40;
+
+}
+.div1{
+    overflow: hidden;    
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.heading{
+	height: 70px;
+	width: 450px;
+	margin-top: 0px;
+	margin-left: 550px;
+	font-size: 5.2rem;
+	font-family: Courier New;
+	color: #00ff80;
+	padding-top: 3.5rem;
+}
+.symbol{
+	margin-top: 10px;
+	margin-right:25px;
+	width: 215px;
+	height:215px;
+	}
+.aboutus{
+	background-color: #353535;
+	margin-top: 140px;
+	text-align: center; 
+	color: #00ff80;
+	font-family: Courier New;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.tag{
+	margin-left: 520px;
+    color: #00ff80;
+	font-family: Courier New;
+	font-size: 1.6rem;
+}	
+.mrq{
+	color: #00ff80;
+	font-family: Courier New;
+	font-size: 1.6rem;
+}
+.symbol1{
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 260px;
+	height:215px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color:#00ff80;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  margin-top: 15px;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+.button:hover{
+    background-color: #4286f4;
+    color: black;
+}
+.sum1{
+  display: inline;
+}

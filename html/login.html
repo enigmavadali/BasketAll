@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/logsinhead.css">
+</head>
+<script type="text/javascript" src="../js/login.js"> </script>
+<body>
+    <div class="div2">
+    <marquee scrollamount="15" behavior="alternate"><h3 class="mrq"> "THE BEST AND MOST FRESH PRODUCTS !! ORDER TODAY" </h3></marquee>
+    <a href="../index.php" style="text-decoration:none"><img class="symbol" src="../imgs/symbol3.png" align="right"></a>
+    <a href="../index.php" style="text-decoration:none"><img class="symbol1" src="../imgs/symbol2.png" align="left"></a>
+    <a href="../index.php" style="text-decoration:none"><h1 class="heading"> BasketAll </h1></a>
+    <h3 class="tag"> ! BUY IT HERE OR DON'T BUY AT ALL !</h3>
+    </div> 
+   
+        <div class="form-container">
+        <h1 class="form-header heading-color">Log In</h1>
+        
+        <form action="../php/login.php" onsubmit=" return fun()" class="form-content" method="post">
+            <fieldset>
+                <input type="text" placeholder="Username" onfocus="this.placeholder=''" onblur="this.placeholder='Username'" class="inpt" name="l_uname" id="l_uname">
+                <input type="password" placeholder="Password" class="inpt" onfocus="this.placeholder=''" onblur="this.placeholder='Password'" name="l_pass" id="l_pass">
+                <input type="submit" value="Log In" class="form-submit-control" />
+
+            </fieldset>
+        </form>    
+        </div>
+    </body>
+</html>
